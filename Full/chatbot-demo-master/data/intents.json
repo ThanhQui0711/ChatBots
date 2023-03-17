@@ -1,0 +1,72 @@
+{"intents": [
+        {"tag": "greetings",
+         "patterns": ["Chào", "Xin chào", "Có ai ở đó không?", "Hello", "Hi"],
+         "responses": ["Xin chào", "Hi", "Tôi đây, liệu tôi có thể giúp gì cho bạn?"],
+         "context_set": ""
+        },
+        {"tag": "in4",
+         "patterns": ["Ai tạo ra bạn?", "Ai đã tạo ra bạn?", "Người tạo ra bạn?" ],
+         "responses": ["Nhóm 5 đã tạo ra tôi", "Tôi được tạo ra bởi nhóm 5","Những thành viên nhóm 5 đã tạo ra tôi"]
+        },
+        {"tag": "tt",
+         "patterns": ["liên hệ", "tôi phải liên hệ cho bạn như thế nao", "làm sao để tôi liên hệ với bạn?" ],
+         "responses": ["Vui lòng liên hệ Nhóm 5-KTPM3-K12", "SĐT: 0795270546 hoặc email: manhtu295199x@gmail.com"]
+        },
+        {"tag": "payments",
+         "patterns": ["Liệu tôi có mất bất kỳ chi phí nào khi sử dụng không?", "liệu phần mềm có mất phí không?", "liệu đây có là phần mềm miễn phí?" ],
+         "responses": ["đây là phần mềm miễn phí hoàn toàn khi sử dụng", "Chúng tôi không thu bất kỳ chi phí nào khi sử dụng phần mềm"]
+        },
+        {"tag": "in42",
+         "patterns": ["Tôi đang nói chuyện với ai?", "Bạn là ai?", "Ai đó?"],
+         "responses": ["Tôi là chatbot được tạo bởi nhóm 5", "Tôi là sản phẩm chatbot của nhóm 5 tạo ra"]
+       },
+      {"tag": "bye",
+       "patterns": ["Tạm biệt", "Gặp lại sau", "Hẹn gặp lại"],
+       "responses": ["Tạm biệt, Cảm ơn vi nói chuyện với tôi", "Chúc một ngày tốt lành!", "Tạm biệt! gặp sau nhé."]
+      },
+      {"tag": "thanks",
+       "patterns": ["Cảm ơn", "Cảm ơn bạn", "điều đó thật tuyệt"],
+       "responses": ["Thật hân hạnh!", "Không có chi!", "Đó là trách nhiệm của tôi!"]
+      },
+	  {"tag": "triet",
+       "patterns": ["Triết học là gì", "Triết học", "bạn biết gì về triết học"],
+       "responses": ["Triết học là bộ môn nghiên cứu về những vấn đề chung và cơ bản của con người, thế giới quan và vị trí của con người trong thế giới quan, những vấn đề có kết nối với chân lý, sự tồn tại, kiến thức, giá trị, quy luật, ý thức, và ngôn ngữ"]
+      },
+	  {"tag": "java",
+       "patterns": ["Java là gì", "Java", "bạn biết gì về Java"],
+       "responses": ["Java là một ngôn ngữ hướng đối tượng tương tự như C ++, nhưng với các tính năng nâng cao và được đơn giản hóa. Java có thể chạy trên tất cả các nền tảng."]
+      },
+	  {"tag": "java1",
+       "patterns": ["Lịch sử Java", "Java lịch sử", "bạn biết gì về lịch sử của java"],
+       "responses": ["Java là ngôn ngữ lập trình được phát triển bởi James Gosling cùng với các thành viên khác trong nhóm có tên Mike Sheridan và Patrick Naughton cũng được gọi là Green Team năm 1995 cho Sun microsystems cho các thiết bị kỹ thuật số như tivi, v.v."]
+      },
+	  {"tag": "java2",
+       "patterns": ["Tính năng Java", "Java có tính năng gì", "bạn biết gì về tính năng của java"],
+       "responses": ["Đơn giản, Portable, Hướng đối tượng, Bảo mật, Linh hoạt, Phân tán, Mạnh mẽ,  Hiệu suất cao, Thông dịch, Đa luồng"]
+      },
+	  {"tag": "java3",
+       "patterns": ["Đặc điểm Java", "Java có đặc điểm gì", "bạn biết gì về đặc điểm của java"],
+       "responses": ["Một số đặc điểm của Java là Hướng đối tượng, Độc lập nền tảng, Thông dịch, Đa luồng (Multi-thread), Robust (mạnh mẽ), Portable (khả chuyển)."]
+      },
+	  {"tag": "java4",
+       "patterns": ["Định nghĩa lớp của Java", "bạn biết gì về lớp của java"],
+       "responses": ["Một lớp là một blueprint từ đó các đối tượng đơn được tạo. Một lớp có thể chứa các trường và các phương thức để miêu tả hành vi của một đối tượng."]
+      },
+	  {"tag": "java5",
+       "patterns": ["Biến bố cục, biến local của Java", "bạn biết gì về biến bố cục, biến local của java"],
+       "responses": ["Các biến được định nghĩa bên trong phương thức, constructor hoặc các khối được gọi là biến local. Biến này sẽ được khai báo và khởi tạo bên trong phương thức và nó sẽ bị hủy khi phương thức kết thúc."]
+      },
+	  {"tag": "java6",
+       "patterns": ["Biến instance của Java", "bạn biết gì về biến instance của java"],
+       "responses": ["Biến instance là các biến bên trong một lớp nhưng bên ngoài bất cứ phương thức nào. Những biến này được khởi tạo khi lớp được tải."]
+      },
+	  {"tag": "java7",
+       "patterns": ["Biến tĩnh của Java", "bạn biết gì về biến tĩnh của java"],
+       "responses": ["Các biến lớp cũng còn được biết đến với tên gọi là biến tĩnh (biến static) được khai báo với từ khóa static trong một lớp, nhưng bên ngoài một phương thức, constructor hoặc một khối."]
+      },
+	  {"tag": "java8",
+       "patterns": ["Constructor của Java", "bạn biết gì về constructor của java"],
+       "responses": ["Constructor được triệu hồi khi một đối tượng mới được tạo. Mỗi lớp có một Constructor. Nếu chúng ta không viết một constructor một cách tường minh cho một lớp, thì Java Compiler sẽ xây dựng một Constructor mặc định cho lớp đó."]
+      }
+   ]
+}
